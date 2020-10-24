@@ -1,0 +1,16 @@
+{
+  "name": "form-wrap-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "serve": "rm -rf .parcel/serve && parcel --cache-dir .parcel/cache -d .parcel/serve src/index.html",
+    "bundle": "rm -rf dist && parcel build --no-source-maps --cache-dir .parcel/cache -d dist src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
